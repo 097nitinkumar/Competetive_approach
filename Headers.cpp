@@ -1,9 +1,11 @@
 #include <algorithm>
+#include <array>
 #include <bitset>
 #include <cassert>
 #include <climits>
 #include <cmath>
 #include <complex>
+#include <cstdarg>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -17,6 +19,7 @@
 #include <limits>
 #include <list>
 #include <map>
+#include <memory>
 #include <numeric>
 #include <queue>
 #include <random>
@@ -24,11 +27,13 @@
 #include <sstream>
 #include <stack>
 #include <stdio.h>
+#include <stdexcept>
 #include <string>
 #include <tuple>
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>
 #include <utility>
+
 
 using namespace std;
