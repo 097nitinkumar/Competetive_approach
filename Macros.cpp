@@ -41,17 +41,30 @@ if (num & 1)
 else
    cout << "EVEN";
 */
-#define vector <int> VI
-#define vector <long long> VLL
-#define vector <string> VS
-#define long long ll
-#define unsigned long long ull
+#define VI vector <int>
+#define SI set<int>
+#define VLL vector <long long>
+#define VS vector <string>
+#define ll long long
+#define ull unsigned long long
 #define MIN(a,b) a=min((a),(b))
 #define MAX(a,b) a=max((a),(b))
 /////////////////////////////////////////////////////////////////////typedef complex<Real> P;
 #define B begin()
 #define E end()
-
+#define UB upper_bound
+#define FOR(i, from, to) for (int i = from; i < (to); ++i)
+///USE:FOR(i,0,N) cin >> a[i];
+#define trav(a, x) for (auto& a : x)
+////USE:{ trav(x, v) cout << x << ' '; cout << endl; }
+#define all(x) (x).begin(),(x).end()
+#define sz(x) (int)(x).size()
+#define PB push_back
+#define MP make_pair
+#define abs(a) ((a) < 0 ? -(a) : (a))
+#define FOREACH(i,t) for (__typeof(t.begin()) i=t.begin(); i!=t.end(); i++)
+#define REP(i,a,b) for(int (i)=(a);(i)<=(b);++i)
+#define REPD(i,a,b) for(int (i)=(a); (i)>=(b);--i)
 /*
 Approach 1
 //int no_of_cols = 5;
@@ -73,3 +86,12 @@ row.push_back(val2);
 //now inserting values into matrix
 matrix.push_back(row);
 */
+
+#define scl(x) scanf("%lld",&x)
+#define sc(x)  scanf("%d",&x)
+
+
+///////////////////////////////////////////////////#define lson k<<1
+///////////////////////////////////////////////////#define rson k<<1|1
+///////////////////////////////////////////////////cin.sync_with_stdio(false);
+///////////////////////////////////////////////////cin.exceptions(cin.failbit);
