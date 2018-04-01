@@ -8,7 +8,7 @@
 //emplace_back is faster than push_back
 #define NL cout<<"\n"
 //"\n" is faster than endl as endl has fflush included
-#define GCD(x,y) _gcd(x, y)
+#define GCD(x,y) __gcd(x, y)
 //Buildin function to find hcf
 #define CPYAR(Arr,x,Arr1) copy_n(Arr, x, Arr1)
 //copy x elements from Arr to Arr1
