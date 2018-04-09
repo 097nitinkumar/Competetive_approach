@@ -114,3 +114,4 @@ matrix.push_back(row);
 //https://www.geeksforgeeks.org/variable-length-arguments-for-macros/
 //Doubt
 //https://www.geeksforgeeks.org/crash-macro-interpretation/
+//And hence next doubt due to it,https://www.geeksforgeeks.org/the-offsetof-macro/
