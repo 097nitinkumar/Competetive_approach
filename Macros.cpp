@@ -10,6 +10,10 @@
 //"\n" is faster than endl as endl has fflush included
 #define GCD(x,y) __gcd(x, y)
 //Buildin function to find hcf
+
+#define LCM(x,y) x*y/__gcd(x, y)
+//Buildin function to find lcm
+
 #define CPYAR(Arr,x,Arr1) copy_n(Arr, x, Arr1)
 //copy x elements from Arr to Arr1
 // Using iota() to assign values
