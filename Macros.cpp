@@ -115,3 +115,15 @@ matrix.push_back(row);
 //Doubt
 //https://www.geeksforgeeks.org/crash-macro-interpretation/
 //And hence next doubt due to it,https://www.geeksforgeeks.org/the-offsetof-macro/
+//Doubt https://www.geeksforgeeks.org/branch-prediction-macros-in-gcc/
+
+
+
+///debug for c
+/*
+#define __debug(var) printf("%s:%d", #var,var)
+	int myVar=100;
+	__debug(myVar);
+*/
+//for c++ 
+#define __debug(var) cout<<#var<<":"<<var
