@@ -134,3 +134,18 @@ matrix.push_back(row);
 
 //doubt https://www.geeksforgeeks.org/tmpnam-function-c/
 //doubt https://www.geeksforgeeks.org/_generic-keyword-c/
+
+
+//IMP NOTE:all the functions of header file math/math.h in C/C++ 
+//take arguments as double and retrun answer in double data type
+//so make sure to convert them in desired data type explictly
+#define PI 3.14159265
+/*
+ val = PI / 180.0;//imporant
+ ret = cos( x*val );
+*/
+
+/*
+val = 180.0 / PI;//imporant
+ret = acos(x) * val;
+*/
