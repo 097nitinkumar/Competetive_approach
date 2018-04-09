@@ -98,4 +98,9 @@ matrix.push_back(row);
 
 #define MAX(i, j) (((i) > (j)) ? i : j)
 //cout << "The maximum is " << MAX(a, b) << endl;
-
+#define concat(a, b) a##b
+/*
+    int xy = 30;
+    printf("%d", concat(x, y));
+*/
+//i##nt becomes int
