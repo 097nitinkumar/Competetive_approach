@@ -133,3 +133,4 @@ matrix.push_back(row);
 #define __debug(var) cout<<#var<<":"<<var
 
 //doubt https://www.geeksforgeeks.org/tmpnam-function-c/
+//doubt https://www.geeksforgeeks.org/_generic-keyword-c/
