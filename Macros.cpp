@@ -112,3 +112,5 @@ matrix.push_back(row);
 
 //macros taking variable__doubt
 //https://www.geeksforgeeks.org/variable-length-arguments-for-macros/
+//Doubt
+//https://www.geeksforgeeks.org/crash-macro-interpretation/
