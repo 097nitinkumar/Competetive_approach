@@ -104,3 +104,11 @@ matrix.push_back(row);
     printf("%d", concat(x, y));
 */
 //i##nt becomes int
+
+
+//for c only maybe
+#define PRINT(x) (#x)conevrts i to string and prints "i" excluding ""
+//printf("%s\n",PRINT(i));
+
+//macros taking variable__doubt
+//https://www.geeksforgeeks.org/variable-length-arguments-for-macros/
