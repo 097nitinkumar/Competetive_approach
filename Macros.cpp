@@ -45,6 +45,7 @@ if (num & 1)
 else
    cout << "EVEN";
 */
+#define MOD 1000000007
 #define VI vector <int>
 #define SI set<int>
 #define VLL vector <long long>
