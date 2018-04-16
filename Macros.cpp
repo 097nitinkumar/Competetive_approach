@@ -112,7 +112,8 @@ matrix.push_back(row);
 
 
 //for c only maybe
-#define PRINT(x) (#x)conevrts i to string and prints "i" excluding ""
+#define PRINT(x) (#x)
+//conevrts i to string and prints "i" excluding ""
 //printf("%s\n",PRINT(i));
 
 //macros taking variable__doubt
