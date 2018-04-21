@@ -4,13 +4,16 @@
 #                                             ASET,BIJWASEN#
 #__________________________________________________________#
 */
+
 #define EB emplace_back
 //emplace_back is faster than push_back
 #define NL cout<<"\n"
 //"\n" is faster than endl as endl has fflush included
+#define PB push_back
+#define MP make_pair
+
 #define GCD(x,y) __gcd(x, y)
 //Buildin function to find hcf
-
 #define LCM(x,y) x*y/__gcd(x, y)
 //Buildin function to find lcm
 
@@ -45,31 +48,43 @@ if (num & 1)
 else
    cout << "EVEN";
 */
+
+#define ll long long
+#define ull unsigned ll
 #define MOD 1000000007
 #define VI vector <int>
 #define SI set<int>
-#define VLL vector <long long>
+#define VLL vector <ll>
 #define VS vector <string>
-#define ll long long
-#define ull unsigned long long
-#define MIN(a,b) a=min((a),(b))
-#define MAX(a,b) a=max((a),(b))
+//LOOPS
+//handels all data types,even pointers
+#define FOREACH(i,t) for (__typeof(t.begin()) i=t.begin(); i!=t.end(); i++)
+//pointer other than int data type is not possible,and can itterate only max range of unsized int
+#define FOR(i,a,b) for(size_t (i)=(a);(i)<=(b);++i)
+///USE:FOR(i,0,N) cin >> a[i];
+#define FOR_(i,a,b) for(size_t (i)=(a); (i)>=(b);--i)
+#define REP(i,n) FOR(i,0,n)
+#define REPD_(i,n) FOR_(i,n,0)
+#define trav(a, x) for (auto& a : x)
+////USE:{ trav(x, v) cout << x << ' '; cout << endl; }
+//LOOPS
+
+#define gchu(c) (c)=getchar_unlocked()
+#define pchu(c) putchar_unlocked(c)
+//MAX OR MIN,ABS
+#define ABS(a) ((a) < 0 ? -(a) : (a))
+#define MAX(i, j) (((i) > (j)) ? i : j)
+#define MIN(i, j) (((i) < (j)) ? i : j)
+//cout << "The maximum is " << MAX(a, b) << endl;
+#define sz(x) (int)(x).size()
 /////////////////////////////////////////////////////////////////////typedef complex<Real> P;
 #define B begin()
 #define E end()
 #define UB upper_bound
-#define FOR(i, from, to) for (int i = from; i < (to); ++i)
-///USE:FOR(i,0,N) cin >> a[i];
-#define trav(a, x) for (auto& a : x)
-////USE:{ trav(x, v) cout << x << ' '; cout << endl; }
-#define all(x) (x).begin(),(x).end()
-#define sz(x) (int)(x).size()
-#define PB push_back
-#define MP make_pair
-#define abs(a) ((a) < 0 ? -(a) : (a))
-#define FOREACH(i,t) for (__typeof(t.begin()) i=t.begin(); i!=t.end(); i++)
-#define REP(i,a,b) for(int (i)=(a);(i)<=(b);++i)
-#define REPD(i,a,b) for(int (i)=(a); (i)>=(b);--i)
+#define ALL(x) (x).begin(),(x).end()
+
+
+//2-D vector
 /*
 Approach 1
 //int no_of_cols = 5;
@@ -91,7 +106,7 @@ row.push_back(val2);
 //now inserting values into matrix
 matrix.push_back(row);
 */
-
+//2-D vector
 #define scl(x) scanf("%lld",&x)
 #define sc(x)  scanf("%d",&x)
 
@@ -101,8 +116,6 @@ matrix.push_back(row);
 ///////////////////////////////////////////////////cin.sync_with_stdio(false);
 ///////////////////////////////////////////////////cin.exceptions(cin.failbit);
 
-#define MAX(i, j) (((i) > (j)) ? i : j)
-//cout << "The maximum is " << MAX(a, b) << endl;
 #define concat(a, b) a##b
 /*
     int xy = 30;
