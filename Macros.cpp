@@ -145,7 +145,8 @@ matrix.push_back(row);
 	__debug(myVar);
 */
 //for c++ 
-#define __debug(var) cout<<#var<<":"<<var
+#define __debug(var) cout<<#var<<":"<<var<<"\n"
+#define DBUG(var) __debug(var)
 
 //doubt https://www.geeksforgeeks.org/tmpnam-function-c/
 //doubt https://www.geeksforgeeks.org/_generic-keyword-c/
