@@ -8,6 +8,8 @@
 #define EB emplace_back
 //emplace_back is faster than push_back
 #define NL cout<<"\n"
+#undef NL
+#defien NL putchar_unlocked(\n)
 //"\n" is faster than endl as endl has fflush included
 #define PB push_back
 #define MP make_pair
