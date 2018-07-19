@@ -8,11 +8,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define NL putchar_unlocked(\n)
+#define NL putchar_unlocked('\n')
 #define endl '\n'
 //LOOPS
 #define rep(i, a, b) for(int i = a; i < (b); ++i)
-#define trav(a, x) for(auto& a : x)
 #define all(x) x.begin(), x.end()
 #define sz(x) (int)(x).size()
 //HCF LCM
@@ -60,6 +59,12 @@ using namespace std;
 #define trav(a, x) for (auto& a : x)
 ////USE:{ trav(x, v) cout << x << ' '; cout << endl; }
 //LOOPS
-#define FAST cin.sync_with_stdio(0); cin.tie(0);\
-	         cin.exceptions(cin.failbit);
-#define RET return 0;
+#define fast cin.sync_with_stdio(0); cin.tie(0);\
+	         cin.exceptions(cin.failbit)
+#define ret return 0
+#define gnum int num;\
+    scanf("%d",&num)
+#define pnum  printf("%d",num)
+#define gstr char str[100];\
+        scanf("%s",str)
+#define pstr printf("%s",str)
