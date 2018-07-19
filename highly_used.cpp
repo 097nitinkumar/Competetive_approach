@@ -60,4 +60,6 @@ using namespace std;
 #define trav(a, x) for (auto& a : x)
 ////USE:{ trav(x, v) cout << x << ' '; cout << endl; }
 //LOOPS
-
+#define FAST cin.sync_with_stdio(0); cin.tie(0);\
+	         cin.exceptions(cin.failbit);
+#define RET return 0;
