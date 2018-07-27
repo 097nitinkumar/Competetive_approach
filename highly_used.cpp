@@ -15,22 +15,22 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define sz(x) (int)(x).size()
 //HCF LCM
-#define GCD(x,y) __gcd(x, y)
-#define LCM(x,y) x*y/GCD(x,y)
+#define gcd(x,y) __gcd(x, y)
+#define lcm(x,y) x*y/GCD(x,y)
 //DATATYPE SHORT HAND
 #define ll long long
 #define ull unsigned ll
 //CONSTANT
-#define MOD 1000000007
+#define mod 1000000007
 //VECTOR AND PAIR
-#define EB emplace_back
-#define VI vector <int>
-#define SI set<int>
-#define VLL vector <ll>
-#define VS vector <string>
-#define PII pair<int,int>
+#define eb emplace_back
+#define vi vector <int>
+#define si set<int>
+#define vl vector <ll>
+#define vs vector <string>
+#define pii pair<int,int>
 //DEBUG FUNCTION
-#define __debug(var) printf("%s:%d", #var,var)
+#define debug(var) printf(#var":%d",var)
 	    //int myVar=100;
 	    //__debug(myVar);
 
@@ -38,21 +38,20 @@ using namespace std;
 #define pchu(c) putchar_unlocked(c)
 //MAX OR MIN,ABS
 #define ABS(a) ((a) < 0 ? -(a) : (a))
-#define MAX(i, j) (((i) > (j)) ? i : j)
-#define MIN(i, j) (((i) < (j)) ? i : j)
+#define max(i, j) (((i) > (j)) ? i : j)
+#define min(i, j) (((i) < (j)) ? i : j)
 //cout << "The maximum is " << MAX(a, b) << endl;
 #define sz(x) (int)(x).size()
 /////////////////////////////////////////////////////////////////////typedef complex<Real> P;
 #define B begin()
 #define E end()
 #define UB upper_bound
-#define ALL(x) (x).begin(),(x).end()
+#define all(x) (x).begin(),(x).end()
 //LOOPS
 //handels all data types,even pointers
-#define FOREACH(i,t) for (__typeof(t.begin()) i=t.begin(); i!=t.end(); i++)
+#define foreach(i,t) for (__typeof(t.begin()) i=t.begin(); i!=t.end(); i++)
 //pointer other than int data type is not possible,and can itterate only max range of unsized int
 #define FOR(i,a,b) for(size_t (i)=(a);(i)<=(b);++i)
-///USE:FOR(i,0,N) cin >> a[i];
 #define FOR_(i,a,b) for(size_t (i)=(a); (i)>=(b);--i)
 #define REP(i,n) FOR(i,0,n)
 #define REPD_(i,n) FOR_(i,n,0)
