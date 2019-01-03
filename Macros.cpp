@@ -4,7 +4,7 @@
 #                                             ASET,BIJWASEN#
 #__________________________________________________________#
 */
-
+#define CLEAR cout << flush
 #define EB emplace_back
 //emplace_back is faster than push_back
 #define NL cout<<"\n"
